@@ -27,5 +27,7 @@ fn main() {
         .expect("Type a number!!!");
     let result: i64 = calc_fibo(typed_number, 0, 1);
 
+    println!("Typed number -- {typed_number}");
+
     println!("Fibo calculation is {result}");
 }
